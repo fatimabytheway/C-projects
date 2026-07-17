@@ -1,0 +1,22 @@
+//program.3: Write a program that will take the bill amount as input from the user and will apply 20% discount on the bill and will calculate the finale amount of the user and will show the original amount, discount and the final amount.//
+#include <iostream>
+using namespace std;
+
+int main() {
+    float bill, discount = 0;
+    
+    cout << "Enter bill amount: ";
+    cin >> bill;
+    
+    if (bill >= 500) {
+        discount = bill * 0.20;
+    } else if (bill >= 100) {
+        discount = bill * 0.10;
+    }
+    
+    cout << "Original Amount: " << bill << endl;
+    cout << "Discount: " << discount << endl;
+    cout << "Final Amount: " << (bill - discount) << endl;
+    
+    return 0;
+}
