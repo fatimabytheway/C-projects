@@ -1,7 +1,7 @@
 # C-projects
 This is my very first projects while using C++.
 # C++ Programming Collection
-A comprehensive collection of 15 C++ programs demonstrating various programming concepts from basic to advanced levels. This repository serves as a learning resource for beginners and intermediate programmers.
+A comprehensive collection of 13 C++ programs demonstrating various programming concepts from basic to advanced levels. This repository serves as a learning resource for beginners and intermediate programmers.
 
 ## 📚 Table of Contents
 - [Overview](#overview)
